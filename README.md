@@ -1,51 +1,27 @@
 # Work-Day-Scheduler
 A simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-# Third-Party APIs: Work Day Scheduler
+# Usage
+I created this project to save the to-do lists into the local storage. Simply type an event into the text box and click on the 'Save' button to see the changes. The busy periods will show in red, the past hours in grey and the available slots in green. 
 
-# Your Task
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
-You'll need to use the Moment.js library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
-
-# User Story
-
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+<img width="1427" alt="Captura de Pantalla 2023-01-31 a las 15 59 37" src="https://user-images.githubusercontent.com/118186099/215812568-a58cdf27-73d3-4f46-8e69-8d92c052a0af.png">
 
 
+Authors
+Giuliana Castillo
 
-# Acceptance Criteria
-The app should:
+https://giulianabcastillo.github.io/Work-Day-Scheduler/
 
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details
 
-1. Display the current day at the top of the calender when a user opens the planner.
+Acknowledgments
+Here there is a list of all the useful resources that I used for this project:
 
+https://www.w3schools.com/js/js_loop_for.asp
 
-2. Present timeblocks for standard business hours when the user scrolls down.
+https://www.w3schools.com/js/js_arrays.asp
 
+https://www.w3schools.com/js/js_variables.asp
 
-3. Color-code each timeblock based on past, present, and future when the timeblock is viewed.
-
-
-4. Allow a user to enter an event when they click a timeblock
-
-
-5. Save the event in local storage when the save button is clicked in that timeblock.
-
-
-6. Persist events between refreshes of a page
-
-
-The following animation demonstrates the application functionality:
-
-
-Grading Requirements
-This homework is graded based on the following criteria:
-
-Technical Acceptance Criteria: 40%
-
-
-Satisfies all of the above acceptance criteria plus the following:
-
-Uses a date utility library to work with date and time
+A special thanks to my tutor, Alexis Gonzalez.
